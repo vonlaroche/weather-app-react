@@ -1,0 +1,10 @@
+.imgDiv{
+    width: 100%;
+    height: 40%;
+}
+
+.imageWeather{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

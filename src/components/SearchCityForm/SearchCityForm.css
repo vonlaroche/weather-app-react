@@ -1,0 +1,89 @@
+.searchForm{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 30%;
+    margin: 0 auto;  
+    justify-content: center;
+    background-color: none;
+    background: transparent;
+    border:none;
+} 
+input[type=submit]{
+    width: 30%;
+    height: 20px;
+    cursor: pointer;
+    border-radius: 10%;
+    border: 1px solid #b6b6b6;
+    outline: none;
+    margin-top: 10px;
+} 
+input[type=submit]:hover{
+    background:rgb(147, 213, 224);
+    outline:none;
+    letter-spacing: 0.05em;
+    color:white;
+
+} 
+.inp {
+    position: relative;
+    width: 100%;
+    max-width: 280px;
+}
+.inp .label {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    font-size: 16px;
+    color: #9098a9;
+    font-weight: 500;
+    transform-origin: 0 0;
+    transition: all 0.2s ease;
+}
+.inp .border {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background:rgb(147, 213, 224);
+    transform: scaleX(0);
+    transform-origin: 0 0;
+    transition: all 0.15s ease;
+}
+.inp input {
+    -webkit-appearance: none;
+    width: 100%;
+    border: 0;
+    font-family: inherit;
+    padding: 12px 0;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 2px solid #c8ccd4;
+    background: none;
+    border-radius: 0;
+    color: #223254;
+    transition: all 0.15s ease;
+}
+.inp input:hover {
+    background: rgba(34,50,84,0.03);
+    cursor: pointer;
+}
+.inp input:not(:placeholder-shown) + span {
+    color: #5a667f;
+    transform: translateY(-26px) scale(0.75);
+}
+.inp input:focus {
+    background: none;
+    outline: none;
+    border-bottom:none;
+}
+.inp input:focus + span {
+    color:rgb(147, 213, 224);
+    transform: translateY(-26px) scale(0.75);
+}
+.inp input:focus + span + .border {
+    transform: scaleX(1);
+}
+  

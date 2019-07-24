@@ -1,0 +1,11 @@
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+    margin: 20px auto;
+    justify-content: center;
+}
+
+.title{
+    color: rgb(147, 213, 224);
+}
+  

@@ -1,0 +1,9 @@
+.mainCard{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 10%;
+    height: 200px;
+    background: rgba(0,0,0, 0.02);
+    margin: 10px;
+}

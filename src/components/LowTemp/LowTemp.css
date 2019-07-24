@@ -1,0 +1,6 @@
+.lowTemp{
+    padding: 10px;
+}
+.lowTemp > span {
+    color: rgb(145, 145, 145);
+}
